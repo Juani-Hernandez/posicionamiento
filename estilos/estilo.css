@@ -1,0 +1,118 @@
+img
+{
+    height: 150px;
+}
+
+body
+{
+    font-family:sans-serif;
+    background-image: linear-gradient(#ECF0F1,#7B7D7D);
+}
+
+#contenedor-titulo
+{
+    background-image: url(../imagenes/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#contenedor-titulo h1
+{
+    position: relative;
+    left: 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+#contenedor-imagenes
+{
+    border: 5px solid black;
+    position:relative;
+    height: 800px;
+}
+
+#contenedor-imagenes #fondo
+{
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+}
+
+#contenedor-imagenes p
+{
+    position: absolute;
+    font-size: 19px;
+    font-weight: bold;
+    background-color:whitesmoke;
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    border-bottom: 3px;
+    border-style: solid;
+}
+
+#contenedor-imagenes #car1
+{
+    top: -2px;
+    left: 120px;
+}
+
+#contenedor-imagenes #car1-imagen
+{
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#contenedor-imagenes #car2
+{
+    top: -2px;
+    right: 120px;
+}
+
+#contenedor-imagenes #car2-imagen
+{
+    position: absolute;
+    top: 50px;
+    right: 16px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#contenedor-imagenes #car3
+{
+    top: 573px;
+    left: 120px;
+}
+
+#contenedor-imagenes #car3-imagen
+{
+    position:absolute;
+    top: 625px;
+    left: 16px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+#contenedor-imagenes #car4
+{
+    top: 573px;
+    right: 120px;
+}
+
+#contenedor-imagenes #car4-imagen
+{
+    position:absolute;
+    top: 625px;
+    right: 16px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
